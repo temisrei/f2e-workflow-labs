@@ -52,6 +52,10 @@
 	$(function(){
 		$('body').on('click', function(){
 			__webpack_require__(3);
+
+			var picurl = __webpack_require__(7);
+
+			$('#pic').append('<img src="' + picurl + '">');
 		})
 	});
 
@@ -9633,6 +9637,12 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "tmp/2080f74a017ca3f90b4b43005e8a55ea.jpg"
 
 /***/ }
 /******/ ]);
