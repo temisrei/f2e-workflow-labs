@@ -1,0 +1,29 @@
+{
+  "name": "f2e-workflow-labs",
+  "description": "前端工程領域在近幾年可謂百家爭鳴、百花齊放，越來越多的前端框架、前端套件，甚至前端工具，皆如雨春筍的冒出頭，一下子 grunt 又一下子 gulp，一下子 browserify 又一下子 webpack 的，好不讓人眼花撩亂、霧裡看花啊！身為一個前端工程師，所要面對的不僅僅是多如牛毛的技術細節，還要應付各式各樣的煩悶又重複的工作，效能調校、圖片壓縮、打包JS/CSS檔案、套件版本管理與升級、... 全部都要會，沒有強烈的熱情著實難以為繼。",
+  "main": "index.js",
+  "authors": [
+    "Rei Lin <temisrei@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/temisrei/f2e-workflow-labs",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+    "jquery": "1.x",
+    "extras.angular.plus": "~0.9.3",
+    "angular-sanitize": "~1.4.7",
+    "moment": "~2.10.6",
+    "angular-ui-router": "~0.2.15",
+    "toastr": "~2.1.2",
+    "angular-animate": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  }
+}
