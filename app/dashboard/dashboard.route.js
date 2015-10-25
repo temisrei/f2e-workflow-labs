@@ -17,7 +17,8 @@
                 state: 'dashboard',
                 config: {
                     url: '/',
-                    templateUrl: 'app/dashboard/dashboard.html',
+                    template: require('raw!./dashboard.html'),
+                    // templateUrl: 'app/dashboard/dashboard.html',
                     controller: 'DashboardController',
                     controllerAs: 'vm',
                     title: 'dashboard',
